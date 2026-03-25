@@ -1,0 +1,21 @@
+{
+  "name": "claude-agent-team-viz",
+  "version": "1.0.0",
+  "description": "Anime/game-style visualizer for Claude Code Agent Teams",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"node server.js\" \"cd client && npm run dev\"",
+    "server": "node server.js",
+    "setup": "npm install && cd client && npm install",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
