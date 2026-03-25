@@ -444,7 +444,7 @@ export default function App() {
                   TASK BOARD ({team.tasks?.length||0})
                 </div>
                 <div style={{
-                  height:480,overflowY:"auto",borderRadius:10,
+                  height:240,overflowY:"auto",borderRadius:10,
                   background:"rgba(0,0,0,.25)",border:"1px solid rgba(255,255,255,.04)",
                   padding:8,display:"flex",flexDirection:"column",gap:5,
                 }}>
@@ -467,7 +467,7 @@ export default function App() {
               MESSAGE LOG ({filtered.length})
             </div>
             <div ref={chatRef} style={{
-              height:830,overflowY:"auto",borderRadius:10,
+              height:430,overflowY:"auto",borderRadius:10,
               background:"rgba(0,0,0,.35)",border:"1px solid rgba(255,255,255,.06)",
               padding:8,display:"flex",flexDirection:"column",gap:5,
             }}>
